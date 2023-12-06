@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+.menu {
+    -fx-background-color: #FBA1B7;
+    -fx-padding: 0px;
+    -fx-min-height: 60px;
+}
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-min-height: 60px;
+    -fx-font-size: 30;
+    -fx-font-family: 'Bitter', serif;
+}
+
+.menu-button:hover {
+    -fx-background-color: #FFDBAA;
+}
+
+.search-layout {
+    -fx-min-width: 350px;
+    -fx-max-width: 350px;
+    -fx-padding: 0 10 20 10;
+    -fx-background-color: #FFF0F5;
+}
+
+.search-bar {
+    -fx-min-height: 60px;
+    -fx-max-height: 60px;
+    -fx-font-size: 30px;
+    -fx-background-radius: 15;
+}
+
+.en-language, .vi-language {
+    -fx-font-size: 20;
+    -fx-border-radius: 20;
+    -fx-background-color: #C3D5D1;
+}
+.en-language {
+    -fx-min-width: 90px;
+    -fx-max-width: 90px;
+}
+.vi-language {
+    -fx-min-width: 130px;
+    -fx-max-width: 130px;
+}
+.translate-input, .translate-output {
+    -fx-min-width: 475px;
+    -fx-max-width: 475px;
+    -fx-min-height: 400px;
+    -fx-max-height: 400px;
+    -fx-font-size: 30;
+    -fx-prompt-text-fill: #818589;
+}
+
+.translate-input .content, .translate-output .content {
+    -fx-background-color: #F7BAC9;
+}
+
+.exchange-icon {
+    -fx-background-color: transparent;
+}
+
+.translate-box {
+    -fx-padding: 50 0 30 0;
+    -fx-background-color: #F6DAE1;
+}
+
+.button-translate {
+    -fx-min-width: 150px;
+    -fx-max-width: 150px;
+    -fx-min-height: 75px;
+    -fx-max-height: 75px;
+    -fx-background-radius: 35;
+    -fx-background-color: linear-gradient(to right, #69776d, #e5c2cb);
+}
+.button-translate:hover {
+    -fx-cursor: hand;
+}
+
+.button-translate-container {
+    -fx-padding: 0 0 50 0;
+    -fx-font-size: 25;
+    -fx-background-color: #F6DAE1;
+}
+
+.word-list {
+    -fx-min-height: 600px;
+    -fx-max-height: 600px;
+    -fx-font-size: 20;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #FFDBAA;
+}
+
+.spell-lbl {
+     -fx-font-size: 20;
+}
+.spell-btn {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-font-size: 20;
+}
+.spell-btn:hover, .btn-delete:hover, .btn-update:hover, .exchange-icon:hover {
+    -fx-opacity: 0.5;
+    -fx-cursor: hand;
+}
+.word-name {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+}
+
+.ipa {
+    -fx-font-size: 20;
+}
+.word-type {
+    -fx-font-size: 20;
+}
+
+.definition {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.example {
+    -fx-font-size: 20;
+}
+
+.word-information {
+    -fx-padding: 20 30 20 30;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: #F6DAE1;
+}
+
+.add-word-layout {
+    -fx-background-color: #F6DAE1;
+}
+
+.add-word-lbl {
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+}
+
+.add-word-txt, .add-type-txt {
+    -fx-min-height: 70px;
+    -fx-max-height: 70px;
+    -fx-font-size: 20;
+    -fx-background-color: #E3BFC8;
+    -fx-prompt-text-fill: #818589;
+    -fx-background-radius: 15;
+}
+
+.add-meaning-txt {
+    -fx-min-height: 150px;
+    -fx-max-height: 150px;
+    -fx-font-size: 20;
+    -fx-background-color: #E3BFC8;
+    -fx-prompt-text-fill: #818589;
+    -fx-background-radius: 15;
+}
+
+.add-word-save {
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-background-radius: 20;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+.add-word-information {
+    -fx-padding: 0 30 0 30;
+}
+
+.btn-delete, .btn-update {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.label-hangman {
+    -fx-font-weight: bold;
+    -fx-font-size: 30;
+}
+
+.game-current-word {
+    -fx-font-weight: bold;
+    -fx-font-size: 50;
+
+}
+
+.game-text {
+    -fx-font-weight: bold;
+    -fx-font-size: 30;
+}
+.game-button {
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+    -fx-font-size: 20;
+    -fx-background-color:#D97883;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+}
+
+
+.game-button: hover{
+    -fx-background-color: #F7E3EA;
+}
+
+.pressed {
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+    -fx-min-height: 50;
+    -fx-max-height: 50;
+    -fx-font-size: 20;
+    -fx-background-color: #A76A81;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+}
+.game-container {
+    -fx-background-color: #FF9EAA;
+    -fx-min-width: 1100;
+    -fx-max-width: 1100;
+    -fx-min-height: 600;
+    -fx-max-height: 600;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+.screen {
+    -fx-background-color: #F6DAE1;
+}
+.vbox-hangman {
+    -fx-padding: 0 0 0 40;
+}
+
+.message1 {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+}
+
+.message2 {
+    -fx-font-size: 25;
+}
+
+.hangman-play-again-btn {
+    -fx-font-size: 25;
+    -fx-background-color:#D97883;
+    -fx-border-radius: 30;
+    -fx-text-fill: white;
+}
+
+.hangman-play-again-btn: hover{
+    -fx-background-color: #9F4552;
+}
+
+.update-word-layout {
+    -fx-background-color: #FFE4A7;
+}
+
+.update-word-lbl {
+    -fx-font-size: 25;
+    -fx-font-weight: bold;
+}
+
+.update-word-txt, .update-type-txt {
+    -fx-min-height: 70px;
+    -fx-max-height: 70px;
+    -fx-font-size: 20;
+    -fx-background-color: #FFA4C6;
+    -fx-prompt-text-fill: #818589;
+    -fx-background-radius: 15;
+}
+
+.update-meaning-txt {
+    -fx-min-height: 150px;
+    -fx-max-height: 150px;
+    -fx-font-size: 20;
+    -fx-background-color: #FFA4C6;
+    -fx-prompt-text-fill: #818589;
+    -fx-background-radius: 15;
+}
+
+.update-word-save {
+    -fx-min-width: 100px;
+    -fx-max-width: 100px;
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-background-radius: 20;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+.update-word-information {
+    -fx-padding: 0 30 0 30;
+    -fx-background-color: #FFE4A7;
+    -fx-min-width: 1200;
+    -fx-max-width: 1200;
+    -fx-min-height: 700;
+    -fx-max-height: 700;
+}
+

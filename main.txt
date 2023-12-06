@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Dictionary dictionary = new Dictionary();
+
+        DictionaryCommandline dictionaryCommandline = new DictionaryCommandline(dictionary);
+        DictionaryManagement dictionaryManagement = new DictionaryManagement(dictionary);
+        dictionaryManagement.insertFromFile();
+        dictionaryManagement.dictionaryLookup();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập tiền tố để tìm kiếm: ");
+        String prefix = scanner.nextLine();
+        dictionaryCommandline.dictionarySearcher(prefix);
+    }
+}
